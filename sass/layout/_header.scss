@@ -1,3 +1,10 @@
 .main-header {
+    flex: 1;
     justify-content: stretch;
+    border: 1px solid orangered;
+}
+
+.main-header > h2 {
+    text-align: center;
+    margin: 10px;
 }
