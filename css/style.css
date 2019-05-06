@@ -19,4 +19,17 @@
     flex-direction: row; } }
 
 .main-header {
-  justify-content: stretch; }
+  flex: 1;
+  justify-content: stretch;
+  border: 1px solid orangered; }
+
+.main-header > h2 {
+  text-align: center;
+  margin: 10px; }
+
+.main-nav {
+  flex: 1;
+  text-align: center; }
+
+.main-article {
+  border: 1px solid orangered; }
